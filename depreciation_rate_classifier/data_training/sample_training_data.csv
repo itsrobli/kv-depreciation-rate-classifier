@@ -1,0 +1,216 @@
+,description,account
+0,Advertising Signs Billboard assets Billboard lighting  HID/Metal halide lighting systems,Div40_Plant_5
+1,Advertising Signs Billboard assets Billboard lighting  LED lighting systems (including solar powered LED lighting systems),Div40_Plant_10
+2,"Advertising Signs Billboard assets Billboard steel structures (incorporating electrical systems, footings, scaffolding and walking platforms and steel frame sign panels) ",Div40_Plant_20
+3,Advertising Signs Billboard assets Digital LED screens ,Div40_Plant_6
+4,Advertising Signs Billboard assets Electronic message centre (EMC) units ,Div40_Plant_3
+5,Advertising Signs Billboard assets Mobile billboard assets Digital LED screens,Div40_Plant_4
+6,Advertising Signs Floor mounted internal advertising panels (used in airports and shopping centres etc)  ,Div40_Plant_7
+7,Advertising Signs Kiosks and other external standalone advertising panel structures  ,Div40_Plant_15
+8,Advertising Signs LED advertising screens (used in office tower foyers etc)  ,Div40_Plant_5
+9,"Advertising Signs Wall mounted advertising panels (used in airports, rail concourses and platforms, shopping centres etc) Digital LED advertising panels ",Div40_Plant_5
+10,"Advertising Signs Wall mounted advertising panels (used in airports, rail concourses and platforms, shopping centres etc) Static advertising panels ",Div40_Plant_10
+11,Signage Signage for business identification (including lighting for signs)  ,Div40_Plant_10
+12,"Air Compression Assets Air compression assets generally (including air compressors, air dryers and air receivers)  ",Div40_Plant_15
+13,Air Compression Assets Air compressors (portable) Compressors - reciprocating ,Div40_Plant_7
+14,Air Compression Assets Air compressors (portable) Compressors - rotary screw ,Div40_Plant_10
+15,HVAC Air handling units  ,Div40_Plant_20
+16,HVAC Cooling towers  ,Div40_Plant_15
+17,HVAC Condensing sets  ,Div40_Plant_15
+18,HVAC Chillers Absorption ,Div40_Plant_25
+19,HVAC Chillers Centrifugal ,Div40_Plant_20
+20,"HVAC Chillers Volumetrics (including reciprocating, rotary, screw, scroll)  Air-cooled",Div40_Plant_15
+21,"HVAC Chillers Volumetrics (including reciprocating, rotary, screw, scroll)  Water-cooled",Div40_Plant_20
+22,HVAC Damper motors (including variable air volume box controllers)  ,Div40_Plant_10
+23,HVAC Fan coil units (connected to a condensing set)  ,Div40_Plant_15
+24,HVAC Humidifiers (steam generator)  ,Div40_Plant_10
+25,"HVAC Mini split systems up to 20KW (including ceiling, floor and high wall split systems)  ",Div40_Plant_10
+26,HVAC Packaged air conditioning units  ,Div40_Plant_15
+27,HVAC Pumps  ,Div40_Plant_20
+28,HVAC Room units  ,Div40_Plant_10
+29,Airless Sprayers Electrically and petrol-driven units  ,Div40_Plant_7
+30,Airless Sprayers Pneumatically-driven units  ,Div40_Plant_15
+31,Block And Brick Elevators   ,Div40_Plant_10
+32,Boilers   ,Div40_Plant_20
+33,Boom Gates Electromechanically operated boom gates  ,Div40_Plant_7
+34,Boom Gates Hydraulically operated boom gates  ,Div40_Plant_10
+35,Hydrolic Car Parking   ,Div40_Plant_10
+36,Compaction Compactors - flat plate  ,Div40_Plant_8
+37,Compaction Compactors - vertical rammer  ,Div40_Plant_6
+38,Computers Generally  ,Div40_Plant_4
+39,Computers Laptops  ,Div40_Plant_3
+40,Computers Raised access floors in computer data rooms and server rooms  ,Div40_Plant_40
+41,Control Systems   ,Div40_Plant_10
+42,Cranes (Gantry And Overhead)   ,Div40_Plant_25
+43,Curtains And Drapes   ,Div40_Plant_6
+44,Digital Cameras Others  ,Div40_Plant_3
+45,Door Control And Motor Drive System   ,Div40_Plant_15
+46,Drink Dispensing Machines   ,Div40_Plant_10
+47,Escalators   ,Div40_Plant_20
+48,Fences Portable electric fences  ,Div40_Plant_20
+49,"Fences Wire mesh (demountable used for partitioning purposes, including portable electric fences)  ",Div40_Plant_20
+50,Fire Control And Alarms Alarms Heat ,Div40_Plant_6
+51,Fire Control And Alarms Alarms Smoke ,Div40_Plant_6
+52,Fire Control And Alarms Detection and alarm systems Alarm bells ,Div40_Plant_12
+53,Fire Control And Alarms Detection and alarm systems Detectors  Aspirated smoke,Div40_Plant_12
+54,Fire Control And Alarms Detection and alarm systems Detectors  Heat,Div40_Plant_20
+55,Fire Control And Alarms Detection and alarm systems Detectors  Manual call point (addressable type only),Div40_Plant_20
+56,Fire Control And Alarms Detection and alarm systems Detectors  Multi type,Div40_Plant_20
+57,Fire Control And Alarms Detection and alarm systems Detectors  Smoke,Div40_Plant_20
+58,Fire Control And Alarms Detection and alarm systems Fire indicator panels ,Div40_Plant_12
+59,Fire Control And Alarms Detection and alarm systems Gas suppression cylinders ,Div40_Plant_25
+60,Fire Control And Alarms Emergency warning and intercommunication systems Master emergency control panels ,Div40_Plant_12
+61,Fire Control And Alarms Emergency warning and intercommunication systems Speakers ,Div40_Plant_12
+62,Fire Control And Alarms Emergency warning and intercommunication systems Strobe lights ,Div40_Plant_12
+63,Fire Control And Alarms Emergency warning and intercommunication systems Warden intercom phones ,Div40_Plant_12
+64,Fire Control And Alarms Extinguishers  ,Div40_Plant_15
+65,Fire Control And Alarms Hoses and nozzles  ,Div40_Plant_10
+66,Fire Control And Alarms Pumps (including diesel and electric)  ,Div40_Plant_25
+67,Fire Control And Alarms Stair pressurisation assets AC variable speed drives ,Div40_Plant_10
+68,Fire Control And Alarms Stair pressurisation assets Pressurisation and extraction fans ,Div40_Plant_25
+69,Fire Control And Alarms Stair pressurisation assets Sensors ,Div40_Plant_10
+70,Flooring Linoleum  ,Div40_Plant_10
+71,Flooring Vinyl  ,Div40_Plant_10
+72,"Formwork, Beams And Props, Steel   ",Div40_Plant_10
+73,Foundations For Plant And Machinery   ,Div40_Plant_40
+74,Hand Dryers (Electrical)   ,Div40_Plant_10
+75,Hand Tools (Manually Operated)   ,Div40_Plant_10
+76,Lift Slab Assets   ,Div40_Plant_5
+77,Lifts   ,Div40_Plant_30
+78,Lighting Control Systems (Microprocessor Based)   ,Div40_Plant_5
+79,Loading Bay Assets Dock levellers  ,Div40_Plant_20
+80,Loading Bay Assets Pallet jacks and pallet trucks  ,Div40_Plant_10
+81,Loading Bay Assets Scissor lifts  ,Div40_Plant_15
+82,Motor Graders   ,Div40_Plant_10
+83,Moving Walks   ,Div40_Plant_20
+84,Furniture - Freestanding Bookcases Metal ,Div40_Plant_20
+85,Furniture - Freestanding Bookcases Timber ,Div40_Plant_15
+86,"Furniture - Freestanding Cabinets (including credenzas, cupboards, filing, mapping, mobile, stationery and storage type) Metal ",Div40_Plant_20
+87,"Furniture - Freestanding Cabinets (including credenzas, cupboards, filing, mapping, mobile, stationery and storage type) Timber/laminated ",Div40_Plant_15
+88,Furniture - Freestanding Chairs  ,Div40_Plant_10
+89,Furniture - Freestanding Desks  ,Div40_Plant_20
+90,Furniture - Freestanding Mobile storage units (compactus type)  ,Div40_Plant_25
+91,"Furniture - Freestanding Reception assets (including lobby chairs, desks, lounges, sofas and tables)  ",Div40_Plant_10
+92,Furniture - Freestanding Screens  ,Div40_Plant_20
+93,Furniture - Freestanding Tables Boardroom ,Div40_Plant_20
+94,Furniture - Freestanding Tables General ,Div40_Plant_10
+95,Furniture - Freestanding Workstations (including desks and partitions)  ,Div40_Plant_20
+96,Office Equipment Electronic whiteboards  ,Div40_Plant_6
+97,Office Equipment Enveloping machines  ,Div40_Plant_6
+98,Office Equipment Facsimile machines  ,Div40_Plant_5
+99,Office Equipment Letter folding and inserting machines (including envelope inserters and letter inserters - desktop/low volume units)  ,Div40_Plant_5
+100,Office Equipment Mailing machines  ,Div40_Plant_5
+101,"Office Equipment Multi function machines (includes fax, copy, print and scan functions)  ",Div40_Plant_5
+102,Office Equipment Photo copying machines  ,Div40_Plant_5
+103,Office Equipment Projectors (including lenses)  ,Div40_Plant_5
+104,Office Equipment Shredders  ,Div40_Plant_15
+105,Office Equipment Trolleys  ,Div40_Plant_15
+106,Office Equipment Whiteboards  ,Div40_Plant_10
+107,Partitions (Demountable)   ,Div40_Plant_20
+108,Platform Scales   ,Div40_Plant_15
+109,Plumbing Fixtures And Fittings Floor and wall tiles  ,Div40_Plant_20
+110,"Plumbing Fixtures And Fittings Generally (including basins, bidets, sinks, toilets, urinals etc)  ",Div40_Plant_20
+111,"Plumbing Fixtures And Fittings Tapware (including taps, mixers and shower heads and assemblies)  ",Div40_Plant_15
+112,Pneumatic Air Tube Systems   ,Div40_Plant_10
+113,Portable Structures   ,Div40_Plant_15
+114,Power Supply Assets Emergency or standby Generator assets  Acoustic hoods and canopies,Div40_Plant_20
+115,Power Supply Assets Emergency or standby Generator assets  Generators (incorporating attached engine management and generator monitoring instruments),Div40_Plant_25
+116,Power Supply Assets Emergency or standby Generator assets  Power management units,Div40_Plant_15
+117,Power Supply Assets Emergency or standby Uninterruptible power supply (UPS) systems ,Div40_Plant_15
+118,"Power Supply Assets Generators, portable (incorporating attached engine management and generator monitoring instruments) Diesel ",Div40_Plant_10
+119,"Power Supply Assets Generators, portable (incorporating attached engine management and generator monitoring instruments) Petrol ",Div40_Plant_5
+120,"Power Supply Assets Private electricity line assets (where used for a specified purpose) 33 Distribution lines  Overhead (incorporating poles - concrete, wood, steel or stobie - and electrical equipment the responsibility of the private landholder such as conductors; cross arms etc)",Div40_Plant_45
+121,"Power Supply Assets Private electricity line assets (where used for a specified purpose) 33 Distribution lines  Underground (incorporating cables, fittings and ground pad mounted transformers)",Div40_Plant_50
+122,"Power Supply Assets Private electricity line assets (where used for a specified purpose) 33 Service cables, overhead ",Div40_Plant_40
+123,"Power Supply Assets Private electricity line assets (where used for a specified purpose) 33 Service cables, underground ",Div40_Plant_50
+124,Power Supply Assets Storage batteries  ,Div40_Plant_15
+125,Power Transformers   ,Div40_Plant_45
+126,Public Address And Paging   ,Div40_Plant_12
+127,"Refrigeration Assets Compressors, condensers, evaporators etc  ",Div40_Plant_15
+128,Refrigeration Assets Insulation panels used in cool or freezer rooms  ,Div40_Plant_40
+129,Security And Monitoring Assets Access control systems Code pads ,Div40_Plant_5
+130,Security And Monitoring Assets Access control systems Door controllers ,Div40_Plant_5
+131,Security And Monitoring Assets Access control systems Readers  Proximity,Div40_Plant_7
+132,Security And Monitoring Assets Access control systems Readers  Swipe card,Div40_Plant_3
+133,Security And Monitoring Assets Ballistic and blast resistant screens and barriers (including fixed and rising types) not forming part of the building  ,Div40_Plant_20
+134,Security And Monitoring Assets Closed circuit television systems Cameras ,Div40_Plant_4
+135,Security And Monitoring Assets Closed circuit television systems Monitors ,Div40_Plant_4
+136,Security And Monitoring Assets Closed circuit television systems Recorders  Digital,Div40_Plant_4
+137,Security And Monitoring Assets Closed circuit television systems Recorders  Time lapse,Div40_Plant_2
+138,Security And Monitoring Assets Closed circuit television systems Switching units (including multiplexers) ,Div40_Plant_5
+139,Security And Monitoring Assets Security systems Code pads ,Div40_Plant_5
+140,Security And Monitoring Assets Security systems Control panels ,Div40_Plant_5
+141,"Security And Monitoring Assets Security systems Detectors (including glass, passive infra-red and vibration) ",Div40_Plant_5
+142,Security And Monitoring Assets Security systems Global system for mobiles (GSM) units ,Div40_Plant_5
+143,Security And Monitoring Assets Security systems Noise maker (including alarms and bells) ,Div40_Plant_5
+144,"Silos Bulk handling Ancillary mechanical assets (including augers, bucket elevators, conveyors etc) ",Div40_Plant_15
+145,Silos Bulk handling Concrete construction ,Div40_Plant_50
+146,Silos Bulk handling Galvanised construction ,Div40_Plant_30
+147,Silos Bulk handling Steel construction ,Div40_Plant_40
+148,Solar Power Systems   ,Div40_Plant_20
+149,Exhaust/Chimney Stacks Concrete stacks (including concrete reinforced stacks)  ,Div40_Plant_30
+150,Exhaust/Chimney Stacks Flare stacks  ,Div40_Plant_25
+151,Exhaust/Chimney Stacks Reinforced plastic stacks  ,Div40_Plant_25
+152,Exhaust/Chimney Stacks Steel stacks (steel flues)  ,Div40_Plant_20
+153,Swimming Pool Assets Chlorinators  ,Div40_Plant_12
+154,Swimming Pool Assets Cleaning assets  ,Div40_Plant_7
+155,Swimming Pool Assets Filtration assets (including pumps)  ,Div40_Plant_12
+156,Swimming Pool Assets Heaters Electric ,Div40_Plant_15
+157,Swimming Pool Assets Heaters Gas ,Div40_Plant_15
+158,Swimming Pool Assets Heaters Solar ,Div40_Plant_20
+159,Swimming Pool Assets Above-ground Pool  ,Div40_Plant_10
+160,Swimming Pool Assets Concrete Pool  ,Div40_Plant_50
+161,Swimming Pool Assets Fibreglass Pool  ,Div40_Plant_20
+162,Switchboards   ,Div40_Plant_20
+163,Synthetic Lawn Surfaces   ,Div40_Plant_5
+164,Tarpaulins   ,Div40_Plant_5
+165,"Telephones Telephone systems (including analogue and digital telephone systems, PABX/PBX systems, key/commander systems, VoIP systems and hybrid telephone systems such as IP-PBX systems etc)  ",Div40_Plant_7
+166,Television Sets   ,Div40_Plant_10
+167,Two-Way Radios Base stations  ,Div40_Plant_6
+168,Two-Way Radios Mobile units  ,Div40_Plant_6
+169,Two-Way Radios Portable units  ,Div40_Plant_3
+170,Two-Way Radios Repeaters  ,Div40_Plant_7
+171,Vending Machines   ,Div40_Plant_5
+172,Ventilation Fans   ,Div40_Plant_20
+173,Waste Storage And Disposal Bins   ,Div40_Plant_10
+174,Bollards   ,Div43_Building_40
+175,Integral_Structure_Non_Residential_'A'.__Div_10D_Building_Allowance_items   ,Div43_Building_40
+176,Asphalt Repairs   ,Deductible_1
+177,Diesel Fuel   ,Deductible_1
+178,Environmental_Protection_Works_-_Asbestos_removal   ,Deductible_1
+179,Final Cleaning   ,Deductible_1
+180,Insurance   ,Deductible_1
+181,Leasing_Brochures   ,Deductible_1
+182,Line Marking   ,Deductible_1
+183,Make_Good   ,Deductible_1
+184,Media_Advertising   ,Deductible_1
+185,On_Site_Security_(Security_guards)   ,Deductible_1
+186,Photography   ,Deductible_1
+187,Plan_Photocopying   ,Deductible_1
+188,Promotional_Brochures   ,Deductible_1
+189,Public_Relations   ,Deductible_1
+190,Re-Painting   ,Deductible_1
+191,Repairs & Maintenance   ,Deductible_1
+192,Travelling_Expenses   ,Deductible_1
+193,Demolition_   ,CGT_Cost_Base_0
+194,Carpets used in commercial office buildings   ,Div40_Plant_8
+195,Lighting plant (electric)   ,Div40_Plant_20
+196,Lighting plant (fluorescent)   ,Div40_Plant_20
+197,Window blinds used in commercial buildings   ,Div40_Plant_20
+198,Building maintenance units   ,Div40_Plant_35
+199,Building management control systems   ,Div40_Plant_15
+200,"Small kitchen appliances (e.g. microwave, dishwasher)   ",Div40_Plant_7
+201,Site preparation costs   ,CGT_Cost_Base_0
+202,Protection cage-roof ladders   ,Div40_Plant_10
+203,People counter system   ,Div40_Plant_5
+204,Fixed floor/wall tiles (not removable without damage)   ,Div43_Building_40
+205,Gardening water installations   ,Div40_Plant_5
+206,"Irremovable garden landscaping (e.g. slabs, paving, walls)   ",Div43_Building_40
+207,Soft landscaping  (e.g. planting)   ,Deductible_1
+208,stamp duty,CGT_Cost_Base_0
+209,duty,CGT_Cost_Base_0
+210,duties,CGT_Cost_Base_0
+211,stamps duties,CGT_Cost_Base_0
+212,stamping,CGT_Cost_Base_0
+213,landscaping general,CGT_Cost_Base_0
+214,landscaping,CGT_Cost_Base_0

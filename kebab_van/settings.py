@@ -27,13 +27,13 @@ status = 'nProduction'
 if computer_hostname == 'ip-172-31-14-196':
     status = 'Production'
 
-key_location_prod = os.path.join('..', 'secrets')
-key_location_dev = os.path.join('..', 'secrets')
+key_location_prod = os.path.join('.', 'secrets')
+key_location_dev = os.path.join('.', 'secrets')
 
 if status == 'Production':
-    key_location = key_location_prod + 'django_key.txt'
+    key_location = os.path.join(key_location_prod, 'django_key.txt')
 else:
-    key_location = key_location_dev + 'django_key.txt'
+    key_location = os.path.join(key_location_dev, 'django_key.txt')
 
 with open(key_location) as f:
     SECRET_KEY = f.read().strip()
