@@ -1,1 +1,4 @@
 secrets
+db.sqlite3
+depreciation_rate_classifier/static/depreciation_rate_classifier/kebab-van.gif
+depreciation_rate_classifier/migrations/*

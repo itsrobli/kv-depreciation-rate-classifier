@@ -21,7 +21,7 @@ def index(request):
     context = {
         'form': form,
     }
-    return render(request, 'eLODA/index.html', context)
+    return render(request, 'depreciation_rate_classifier/index.html', context)
 
 
 # Collects user input form data and saves to database, then calls the new view to display it.
@@ -30,15 +30,15 @@ def api_ml(request):
     if form.is_valid():
         user_post = form.cleaned_data['user_input']
         if user_post.strip() == '':
-            return render(request, 'eLODA/oops_restart.html', {})
+            return render(request, 'depreciation_rate_classifier/oops_restart.html', {})
         else:
             user_input_record = UserInput()
             user_input_record.user_input = user_post.lower()
             user_input_record.save()
             user_input_id = user_input_record.pk
-            return HttpResponseRedirect(reverse('eLODA:ml_batch_result', args=(user_input_id,)))
+            return HttpResponseRedirect(reverse('depreciation_rate_classifier:ml_batch_result', args=(user_input_id,)))
     else:
-        return render(request, 'eLODA/oops_restart.html', {})
+        return render(request, 'depreciation_rate_classifier/oops_restart.html', {})
 
 
 # Display the ML results from a given user input bag of words.
@@ -51,7 +51,7 @@ def ml_batch_result(request, user_input_id):
                 continue
             ml_log_record = MlLog()
             ml_log_record.ml_input = line
-            ml_log_record.ml_result = PREDICT.predict_description(line)
+            temp, ml_log_record.ml_result = PREDICT.predict_description(line)
             ml_log_record.user_input = user_input
             ml_log_record.save()
     ml_results_obj = user_input.user_inputs.all()  # Gets all in MLlog table that matches
@@ -61,9 +61,9 @@ def ml_batch_result(request, user_input_id):
     tax_class = []
     for result in ml_results_obj:
         account.append(result.ml_result)
-        deprn_perc.append(ACCOUNT_MEANING[result.ml_result][0])
-        eff_life.append(ACCOUNT_MEANING[result.ml_result][1])
-        tax_class.append(ACCOUNT_MEANING[result.ml_result][2])
+        deprn_perc.append(ACCOUNT_MEANING[result.ml_result][1])
+        eff_life.append(ACCOUNT_MEANING[result.ml_result][3])
+        tax_class.append(ACCOUNT_MEANING[result.ml_result][4])
 
     UserConfirmationFormSet = formset_factory(
         UserConfirmationForm,
@@ -78,7 +78,7 @@ def ml_batch_result(request, user_input_id):
         'user_confirmation_formset': user_confirmation_formset,
         'combined': combined,
     }
-    return render(request, 'eLODA/ml_batch_result.html', context)
+    return render(request, 'depreciation_rate_classifier/ml_batch_result.html', context)
 
 
 def add_user_confirmation(request):

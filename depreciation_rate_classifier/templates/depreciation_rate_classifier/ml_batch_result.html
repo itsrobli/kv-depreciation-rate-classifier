@@ -1,0 +1,64 @@
+{% load bootstrap3 %}
+
+{% bootstrap_css %}
+<div class="container">
+<h2>Results</h2>
+
+{% if combined and user_confirmation_formset %}
+    <p>
+    The items you input have been run through the machine learning model and the following predictions were made.
+    </p>
+    <p>Feel free to submit any corrections using the radio buttons to help teach the model. Or Restart.</p>
+    <p></p>
+
+    <form action="{% url 'depreciation_rate_classifier:add_user_confirmation' %}" method="post">
+        {% csrf_token %}
+        {{ user_confirmation_formset.management_form }}
+        <table class="table table-sm table-hover">
+            <tr>
+                <th>Your input</th>
+                <th>Account</th>
+                <th>Deprn% (PC)</th>
+                <th>Effective Life (Yrs)</th>
+                <th>Tax Class</th>
+                <th>How did it do?</th>
+
+            </tr>
+            {% for results, form, account, deprn_perc, eff_life, tax_class in combined %}
+                <tr>
+                    <td>{{ results.ml_input }}</td>
+                    <td>{{ account }}<input type="hidden" name="ml-item{{ forloop.counter }}" id="ml-item{{ results.pk }}" value="{{ results.pk }}"/></td>
+                    <td>{{ deprn_perc }}</td>
+                    <td>{{ eff_life }}</td>
+                    <td>{{ tax_class }}</td>
+                    {% for field in form %}
+                        <td><ul class="list-unstyled">{{ field }} </ul> </td>
+                    {% endfor %}
+{#                    <td>{{ results.user_flagged }}</td>#}
+{#                    <td>{{ results.submitted_date }}</td>#}
+                </tr>
+            {% endfor %}
+        </table>
+        <p>
+        <input type="text" name="user_name" placeholder="Enter your name">
+        </p>
+        {% buttons %}
+        <button type="submit" class="btn btn-primary">
+        Submit corrections
+        </button>
+        {% endbuttons %}
+        <small id="passwordHelpBlock" class="form-text text-muted">
+            This application is still in testing, corrections may not be retained.
+        </small>
+    </form>
+
+
+
+    <p><a href="{% url 'depreciation_rate_classifier:index' %}">Restart</a></p>
+
+    <p>Email Robert Li with any feedback.</p>
+{% else %}
+    <p>Nothing available. Hmm...something went wrong...</p>
+    <a href="{% url 'depreciation_rate_classifier:index' %}">Restart</a>
+{% endif %}
+</div>

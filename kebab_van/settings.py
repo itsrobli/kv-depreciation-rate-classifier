@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'depreciation_rate_classifier.apps.DepreciationRateClassifierConfig',
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [

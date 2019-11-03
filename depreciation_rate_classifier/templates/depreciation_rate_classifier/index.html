@@ -1,0 +1,68 @@
+{% load bootstrap3 %}
+
+{% bootstrap_css %}
+
+<div class="container">
+    {% block content %}
+        <div style="text-align: center;">
+            {% load static %}
+            <img src="{% static "depreciation_rate_classifier/kebab-van.gif" %}" alt="Kebab Van">
+            <h1>a Kebab Van production</h1>
+            <p><em><strong>This application is a prototype. Contact Robert Li with any feedback.</strong></em></p>
+            <br>
+        </div>
+        <p class="lead">This application uses machine learning to predict the tax depreciation rate
+            when given an arbitrary text description of an asset.</p>
+
+        <p>Input a list of descriptions of items below and press submit. The model will predict the tax depreciation
+            rate based on the
+            description in an investment property context.</p>
+        <p>Inputs can be:
+        <ul>
+            <li>Typed (use one paragraph per item to assess); or</li>
+            <li>Copy and pasted from a selection of Excel rows.</li>
+            <li>The model should be able to overcome small spelling errors and large amounts of redundant words.</li>
+        </ul>
+        </p>
+        <form action="{% url 'depreciation_rate_classifier:api_ml' %}" method="post" class="form">
+            {% csrf_token %}
+            <p>
+                {% for field in form %}
+                    {% bootstrap_field field show_label=False placeholder='e.g. air conditioner' %}
+                {% endfor %}
+            </p>
+            {% buttons %}
+                <button type="submit" class="btn btn-primary">
+                    Submit
+                </button>
+            {% endbuttons %}
+        </form>
+
+        <br>
+        <div>
+            <h4>How does it work?</h4>
+            <p>
+                This app only uses public data for training the machine learning model. As such, accuracy is not great.
+            </p>
+            <p>
+                Information about the machine learning model.
+                <br>
+                <a href="https://github.com/itsrobli/depreciation-rate-classifier">
+                    https://github.com/itsrobli/depreciation-rate-classifier
+                </a>
+            </p>
+            <p>
+                Source code for this Django app.
+                <br>
+                <a href="https://github.com/itsrobli/kv-depreciation-rate-classifier">
+                    https://github.com/itsrobli/kv-depreciation-rate-classifier
+                </a>
+
+            </p>
+
+        </div>
+
+
+    {% endblock %}
+
+</div>

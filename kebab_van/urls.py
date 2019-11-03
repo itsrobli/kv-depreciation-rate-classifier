@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('eLODA/', include('depreciation_rate_classifier.urls')),
+    path('depreciation_rate_classifier/', include('depreciation_rate_classifier.urls')),
     path('', include('depreciation_rate_classifier.urls')),
     path('admin/', admin.site.urls),
 ]

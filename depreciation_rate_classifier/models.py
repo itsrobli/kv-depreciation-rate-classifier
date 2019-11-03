@@ -22,7 +22,7 @@ USER_RATINGS = (
 
 
 class MlLog(models.Model):
-    user_input = models.ForeignKey(UserInput, related_name='user_inputs')
+    user_input = models.ForeignKey(UserInput, related_name='user_inputs', on_delete=models.CASCADE)
     ml_input = models.TextField()
     ml_result = models.CharField(max_length=255)
     user_flagged = models.IntegerField(default=1, choices=USER_RATINGS)
@@ -37,7 +37,7 @@ class MlLog(models.Model):
 
 class UserConfirmation(models.Model):
     user_name = models.CharField(max_length=255)
-    ml_item = models.ForeignKey(MlLog, related_name='ml_log_item')
+    ml_item = models.ForeignKey(MlLog, related_name='ml_log_item', on_delete=models.CASCADE)
     user_feedback = models.IntegerField(default=1, choices=USER_RATINGS)
     submitted_date = models.DateTimeField(auto_now_add=True)
 
