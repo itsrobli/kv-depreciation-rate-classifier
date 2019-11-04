@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 computer_hostname = socket.gethostname()
 
 status = 'nProduction'
-if computer_hostname == 'ip-172-31-14-196':
+if computer_hostname == 'ip-172-31-8-175':
     status = 'Production'
 
 key_location_prod = os.path.join('.', 'secrets')
@@ -43,7 +43,7 @@ DEBUG = True
 if status == 'Production':
     DEBUG = False
 
-ALLOWED_HOSTS = ['52.65.171.9', '127.0.0.1', 'ec2-52-65-171-9.ap-southeast-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['13.239.135.95', '127.0.0.1', 'ec2-13-239-135-95.ap-southeast-2.compute.amazonaws.com', 'localhost']
 
 
 # Application definition
@@ -139,3 +139,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
